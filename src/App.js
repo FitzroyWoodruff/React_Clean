@@ -1,9 +1,9 @@
+import Header from "./components/Header";
+
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<h1>Clean React</h1>
-			</header>
+			<Header heading={"Clean React"} />
 		</div>
 	);
 }
